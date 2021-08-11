@@ -1,0 +1,136 @@
+body{
+	background: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+} /* The very back*/
+
+.bodywrapper{	
+	margin: auto;
+	position: relative;
+	top:20px;
+	width: 800px;	
+	background: #FFF;
+	border-radius: 20px 20px 0 0;
+
+}
+
+.headerdiv{
+	
+	position: relative;
+	font: bold 28px Arial, sans-serif;	
+	left: 60px;
+	top: 48px;
+	line-height: 20px;
+}
+
+.menu::after{
+	content: "";
+	clear: both;
+	display:table;
+}
+
+nav{
+	background: url(../images/blockdefault.gif) center;
+	border-top: 1px solid #eee;
+
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+nav ul li{
+	float: left;
+	border-left: 1px solid #eee;	
+	/*padding: 8px;*/
+}
+
+nav ul li:last-of-type{		/*see selector part in w3school css*/
+	border-right: 1px solid #eee;
+}
+
+.menu div{
+	padding: 8px;
+	margin: 0;
+	border: 0;
+	position: relative;	
+	top: 1px;
+}
+
+nav a{	
+	text-decoration: none;	/* remove decoration like "underline" */
+	color: #fff;	/*font color*/
+	font: bold 13px arial;		
+}
+
+nav div:hover{
+	background: url(../images/blockactive.gif) center;
+}
+
+
+header{
+	height: 140px;
+	width: 800px;	
+	/*border-radius: 20px 20px 0 0;*/
+	background: url(../images/header.jpg) no-repeat top center /cover;	
+}
+
+
+
+
+header small{
+	font-size: 49%;
+
+}
+
+.section_wrapper{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+
+article{
+	width: 550px;
+}
+
+aside{
+	float: right;
+	padding: 5px 5px;
+	size: 250px;
+	background-color: #EEEEEE;	/*Section One Title*/
+	border-color: rgba(16,16,16,0.5);
+}
+
+footer{		
+	background-color: #101010;
+	color: #fff;
+}
+
+footer div{
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+Sections de la colonne ?droite: 
+background: #660000	/*section two title background*/
+text: #FFFFFF0
+a: Color: #FFFF99;	/*link at the bottom right*/
+titre: rgba(40,0,0,0.5); 
+
+Section dans le milieu
+background: #666666;	/*About featured products*/
+color: #FFFFFF;
+a: Color: #FFFF99;		/*link at the bottom right*/
+titre: rgba(40,0,0,0.5); /*Section Three title*/
+
+
+.menu{
+	font: bold 13px Arial;
+	color: #fff;
+}

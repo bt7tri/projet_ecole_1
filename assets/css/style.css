@@ -1,0 +1,179 @@
+body{
+	background: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+} /* The very back*/
+
+.bodywrapper{	
+	margin: auto;
+	position: relative;
+	top:20px;
+	width: 800px;	
+	background: #FFF;
+	border-radius: 20px 20px 0 0;
+
+}
+
+.headerdiv{
+	
+	position: relative;
+	font: bold 28px Arial, sans-serif;	
+	left: 60px;
+	top: 48px;
+	line-height: 20px;
+}
+
+.menu::after{
+	content: "";
+	clear: both;
+	display:table;
+}
+
+nav{
+	background: url(../images/blockdefault.gif) center;
+	border-top: 1px solid #eee;
+
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+nav ul li{
+	float: left;
+	border-left: 1px solid #eee;	
+	/*padding: 8px;*/
+}
+
+nav ul li:last-of-type{		/*see selector part in w3school css*/
+	border-right: 1px solid #eee;
+}
+
+.menu div{
+	padding: 8px;
+	margin: 0;
+	border: 0;
+	position: relative;	
+	top: 1px;
+}
+
+nav a{	
+	text-decoration: none;	/* remove decoration like "underline" */
+	color: #fff;	/*font color*/
+	font: bold 13px arial;	
+}
+
+nav div:hover{
+	background: url(../images/blockactive.gif) center;
+}
+
+
+header{
+	height: 140px;
+	width: 800px;	
+	/*border-radius: 20px 20px 0 0;*/
+	background: url(../images/header.jpg) no-repeat top center /cover;	
+}
+
+
+
+
+header small{
+	font-size: 49%;
+
+}
+
+
+.container{
+	width: 800px;
+	margin: auto;
+	padding: 0px 0px;	
+}
+
+.clearfix::after{
+	content:"";
+	clear: both;	/*If this option is selected, the contents in <aside> tag comes into the container*/
+	display: table; /*If this option is selected, the contents in <aside> tag comes into the container*/
+}
+
+article{
+	float: left;
+	/*width: 530px;*/	/*550-30*/
+	width: calc(550px - 20px);
+	padding: 0px 10px;
+}
+
+aside{
+	float: left;
+	/*width: 225px;*/ /*Question*/ /*250-30*/
+	width: calc(250px - 25px);
+	padding: 10px 10px;
+	background-color: #EEEEEE;	/*Section One Title*/
+	border-color: rgba(16,16,16,0.5);
+	border-left: 5px solid #666666;
+}
+
+article p, aside p{
+	text-align: justify;
+}
+
+.width-100{
+	width: 100%;	/*use this class when you want to make the element take the whole width ignoring padding*/
+}
+
+.box_article{
+	padding: 10px 10px;
+	margin-top: 50px;
+	border-radius: 5px;
+	background-color: #666666;
+	color: #FFFFFF;	/*text color*/
+}
+
+.box_title{
+	padding: 5px 5px;	
+	border-radius: 5px;
+	background-color: rgba(40,0,0,0.5); 
+	font: bold 13px arial;
+}
+
+.box_aside{
+	margin: 10px 0px;
+	padding: 10px 10px;
+	border-radius: 5px;
+	background-color: #660000;
+	color: #FFFFFF;	/*text color*/
+}
+
+.box_article a, .box_aside a{
+	color: #FFFF99;		/*link at the bottom right*/
+}
+
+.line_height{
+	line-height: 15px;
+}
+
+
+footer{		
+	background-color: #101010;
+	color: #fff;
+}
+
+footer div{
+	margin: auto;
+	padding: 5px 0;
+	text-align: center;
+}
+
+
+
+titre: rgba(40,0,0,0.5); /*Section Three title*/
+
+
+
+.menu{
+	font: bold 13px Arial;
+	color: #fff;
+}
